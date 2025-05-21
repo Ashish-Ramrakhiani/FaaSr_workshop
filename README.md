@@ -181,3 +181,9 @@ mc_cat("play/faasr/FaaSr_workshop_yourname/rw_forecast_combined.csv")
 ```
 # Complete a post-workshop survey
 Switch to the [survey](https://forms.gle/GyCaMXR5Jjke4tr19) tab again and complete "Section 2 post-survey". Thank you for attending the FaaSr workshop.
+
+# Using the FaaSr workflow builder
+
+While you can create and edit FaaSr configuration files in any text editor, FaaSr also provides a Shiny app graphical user interface to facilitate the development of simple workflows using your browser. You can use it to edit a configuration from scratch, or from an existing JSON configuration file that you upload as a starting point, and then download the edited JSON file to your computer for use in FaaSr, for example as in faasr_workshop <- faasr(json_path="neon_workflow.json", env="faasr_env")
+
+[Right-click here to open the FaaSr workflow builder in another window](https://faasr.shinyapps.io/faasr-json-builder/). To test it, you can upload the neon_workflow.json from this tutorial, and you will be able to visualize and edit the workflow shown above.
